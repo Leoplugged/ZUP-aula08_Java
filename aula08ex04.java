@@ -8,9 +8,11 @@ public class aula08ex04 {
         System.out.println("Defina um valor para N:");
         int N = leitor.nextInt();
 
-        for(int i = 0; i <= N; i++){
-            if(i % 2 == 0){
-                System.out.println(i);
+        if(N>0){
+            for(int i = 1; i <= N; i++){
+                if(i % 2 == 0){
+                    System.out.println(i);
+                }
             }
         }
         leitor.close();
